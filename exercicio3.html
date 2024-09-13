@@ -1,265 +1,265 @@
 <!DOCTYPE html>
 
 <head>
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
 
-        body {
-            font-family: 'Inter', sans-serif;
-        }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
 
-        .background-grey {
-            background-color: #f5f7fa;
-        }
+    .background-grey {
+      background-color: #f5f7fa;
+    }
 
-        .centralize {
-            width: 1440px;
-            margin: 0 auto;
-        }
+    .centralize {
+      width: 1440px;
+      margin: 0 auto;
+    }
 
-        .flex-row {
-            display: flex;
-            flex-direction: row;
-        }
+    .flex-row {
+      display: flex;
+      flex-direction: row;
+    }
 
-        .banner-1-container {
-            gap: 104px;
-            align-items: center;
-            justify-content: center;
-        }
+    .banner-1-container {
+      gap: 104px;
+      align-items: center;
+      justify-content: center;
+    }
 
-        .flex-column {
-            display: flex;
-            flex-direction: column;
-        }
+    .flex-column {
+      display: flex;
+      flex-direction: column;
+    }
 
-        .font-color-green {
-            color: #4CAF4F;
-        }
+    .font-color-green {
+      color: #4CAF4F;
+    }
 
-        .layout1 {
-            display: flex;
-            padding: 30px 120px 30px 104px;
-        }
+    .layout1 {
+      display: flex;
+      padding: 30px 120px 30px 104px;
+    }
 
-        .logo {
-            width: 154.49px;
-            height: 24px;
-            display: flex;
-            gap: 8px;
-            margin: auto;
-        }
+    .logo {
+      width: 154.49px;
+      height: 24px;
+      display: flex;
+      gap: 8px;
+      margin: auto;
+    }
 
-        .imagem1 {
-            width: 35px;
-            height: 24px;
-            flex: 0;
-        }
+    .imagem1 {
+      width: 35px;
+      height: 24px;
+      flex: 0;
+    }
 
-        .imagem2 {
-            width: 111.49px;
-            height: 20.66px;
-            flex: 1;
-        }
+    .imagem2 {
+      width: 111.49px;
+      height: 20.66px;
+      flex: 1;
+    }
 
-        .home {
-            display: flex;
-            flex: 1;
-            width: 588px;
-            height: 24px;
-            gap: 50px;
-            padding: 0 124.05px 0 167.01px;
-        }
+    .home {
+      display: flex;
+      flex: 1;
+      width: 588px;
+      height: 24px;
+      gap: 50px;
+      padding: 0 124.05px 0 167.01px;
+    }
 
-        .home-p {
-            color: #18191f;
-            font-weight: 500;
-            font-size: 16px;
-        }
+    .home-p {
+      color: #18191f;
+      font-weight: 500;
+      font-size: 16px;
+    }
 
-        .login {
-            width: 182px;
-            height: 40px;
-            display: flex;
-            gap: 14px;
-            margin: auto;
-        }
+    .login {
+      width: 182px;
+      height: 40px;
+      display: flex;
+      gap: 14px;
+      margin: auto;
+    }
 
-        .login2 {
-            width: 77px;
-            height: 40px;
-            flex: 0;
-            padding: 0 20px 0 20px;
-        }
+    .login2 {
+      width: 77px;
+      height: 40px;
+      flex: 0;
+      padding: 0 20px 0 20px;
+    }
 
-        .login-p {
-            width: 37px;
-            height: 20px;
-            color: #4CAF4F;
-            font-size: 14px;
-            font-weight: 500;
-        }
+    .login-p {
+      width: 37px;
+      height: 20px;
+      color: #4CAF4F;
+      font-size: 14px;
+      font-weight: 500;
+    }
 
-        .signUp {
-            width: 91px;
-            height: 40px;
-            background-color: #4CAF4F;
-            border-radius: 6px;
-            padding: 10px 20px 10px 20px;
-        }
+    .signUp {
+      width: 91px;
+      height: 40px;
+      background-color: #4CAF4F;
+      border-radius: 6px;
+      padding: 10px 20px 10px 20px;
+    }
 
-        .signUp-p {
-            width: 51px;
-            height: 20px;
-            color: #ffffff;
-            font-weight: 500;
-            font-size: 14px;
+    .signUp-p {
+      width: 51px;
+      height: 20px;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
 
-        }
+    }
 
-        .layout2 {
-            display: flex;
-            width: 1440px;
-            padding: 96px 144px 96px 144px;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    .layout2 {
+      display: flex;
+      width: 1440px;
+      padding: 96px 144px 96px 144px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-        .lessons {
-            font-weight: 600;
-            font-size: 64px;
-            line-height: 76px;
-            color: #4D4D4D;
-            width: 657px;
-            height: 152px;
-        }
+    .lessons {
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 76px;
+      color: #4D4D4D;
+      width: 657px;
+      height: 152px;
+    }
 
-        .lessons2 {
-            width: 657px;
-            height: 24px;
-            font-weight: 400;
-            font-size: 16px;
-            color: #717171;
-        }
+    .lessons2 {
+      width: 657px;
+      height: 24px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #717171;
+    }
 
-        .img1 {
-            width: 391px;
-            height: 407px;
-            flex: 1;
-        }
+    .img1 {
+      width: 391px;
+      height: 407px;
+      flex: 1;
+    }
 
-        .bottom {
-            background-color: #4CAF4F;
-            width: 128px;
-            height: 52px;
-            border-radius: 4px;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 24px;
-            color: #ffffff;
-            padding: 14px 32px 14px 32px;
-        }
+    .bottom {
+      background-color: #4CAF4F;
+      width: 128px;
+      height: 52px;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #ffffff;
+      padding: 14px 32px 14px 32px;
+    }
 
-        .ponto {
-            width: 46px;
-            height: 10px;
-            gap: 8px;
-            display: flex;
+    .ponto {
+      width: 46px;
+      height: 10px;
+      gap: 8px;
+      display: flex;
 
-        }
+    }
 
-        .ponto1 {
-            color: #4CAF4F;
-        }
+    .ponto1 {
+      color: #4CAF4F;
+    }
 
-        .ponto2 {
-            color: #4CAF4F;
-            opacity: 30%;
-        }
-    </style>
+    .ponto2 {
+      color: #4CAF4F;
+      opacity: 30%;
+    }
+  </style>
 
 </head>
 
 <body>
-    <div class="pagina">
+  <div class="pagina">
 
-        <div class="background-grey">
-            <div class="centralize">
-                <div class="layout1">
-                    <div class="logo">
-                        <img class="imagem1" src="Icon.png">
-                        <img class="imagem2" src="Nexcent (1).png">
-                    </div>
-                    <div class="home">
-                        <div>
-                            <p class="home-p">Home</p>
-                        </div>
-                        <div>
-                            <p class="home-p">Service</p>
-                        </div>
-                        <div>
-                            <p class="home-p">Feature</p>
-                        </div>
-                        <div>
-                            <p class="home-p">Product</p>
-                        </div>
-                        <div>
-                            <p class="home-p">Testimonial</p>
-                        </div>
-                        <div>
-                            <p class="home-p">FAQ</p>
-                        </div>
-                    </div>
-                    <div class="login">
-                        <div class="login2">
-                            <p class="login-p">Login</p>
-                        </div>
-                        <div class="signUp">
-                            <p class="signUp-p">Sign Up</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="background-grey">
+      <div class="centralize">
+        <div class="layout1">
+          <div class="logo">
+            <img class="imagem1" src="Icon.png">
+            <img class="imagem2" src="Nexcent (1).png">
+          </div>
+          <div class="home">
+            <div>
+              <p class="home-p">Home</p>
             </div>
-        </div>
-
-        <div class="background-grey">
-            <div class="centralize">
-                <div class="layout2">
-                    <div class="flex-row banner-1-container">
-                        <div>
-                            <p class="lessons">
-                                <span>Lesson and insights</span>
-                                <span class="font-color-green">from 8 years</span>
-                            </p>
-                            <p class="lessons2">Where to grow your business as a photographer: site or social media?</p>
-                            <div class="bottom">
-                                <p>Register</p>
-                            </div>
-                        </div>
-                        <div class="img1">
-                            <img src="Illustration.svg">
-                        </div>
-                    </div>
-                    <div class="ponto">
-                        <div class="ponto1">
-                            <p>•</p>
-                        </div>
-                        <div class="ponto2">
-                            <p>•</p>
-                        </div>
-                        <div>
-                            <p>•</p>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <p class="home-p">Service</p>
             </div>
+            <div>
+              <p class="home-p">Feature</p>
+            </div>
+            <div>
+              <p class="home-p">Product</p>
+            </div>
+            <div>
+              <p class="home-p">Testimonial</p>
+            </div>
+            <div>
+              <p class="home-p">FAQ</p>
+            </div>
+          </div>
+          <div class="login">
+            <div class="login2">
+              <p class="login-p">Login</p>
+            </div>
+            <div class="signUp">
+              <p class="signUp-p">Sign Up</p>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
+
+    <div class="background-grey">
+      <div class="centralize">
+        <div class="layout2">
+          <div class="flex-row banner-1-container">
+            <div>
+              <p class="lessons">
+                <span>Lesson and insights</span>
+                <span class="font-color-green">from 8 years</span>
+              </p>
+              <p class="lessons2">Where to grow your business as a photographer: site or social media?</p>
+              <div class="bottom">
+                <p>Register</p>
+              </div>
+            </div>
+            <div class="img1">
+              <img src="Illustration.svg">
+            </div>
+          </div>
+          <div class="ponto">
+            <div class="ponto1">
+              <p>•</p>
+            </div>
+            <div class="ponto2">
+              <p>•</p>
+            </div>
+            <div>
+              <p>•</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 </body>

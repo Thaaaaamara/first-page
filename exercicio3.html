@@ -21,17 +21,6 @@
       margin: 0 auto;
     }
 
-    .flex-row {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .banner-1-container {
-      gap: 104px;
-      align-items: center;
-      justify-content: center;
-    }
-
     .flex-column {
       display: flex;
       flex-direction: column;
@@ -41,12 +30,16 @@
       color: #4CAF4F;
     }
 
-    .layout1 {
+    /*
+    #Menu
+    */
+
+    #menu .layout1 {
       display: flex;
       padding: 30px 120px 30px 104px;
     }
 
-    .logo {
+    #menu .logo {
       width: 154.49px;
       height: 24px;
       display: flex;
@@ -54,19 +47,19 @@
       margin: auto;
     }
 
-    .imagem1 {
+    #menu .imagem1 {
       width: 35px;
       height: 24px;
       flex: 0;
     }
 
-    .imagem2 {
+    #menu .imagem2 {
       width: 111.49px;
       height: 20.66px;
       flex: 1;
     }
 
-    .home {
+    #menu .home {
       display: flex;
       flex: 1;
       width: 588px;
@@ -75,13 +68,13 @@
       padding: 12px 124.05px 0 167.01px;
     }
 
-    .home-p {
+    #menu .home-p {
       color: #18191f;
       font-weight: 500;
       font-size: 16px;
     }
 
-    .login {
+    #menu .login {
       width: 182px;
       height: 40px;
       display: flex;
@@ -89,14 +82,14 @@
       margin: auto;
     }
 
-    .login2 {
+    #menu .login2 {
       width: 77px;
       height: 40px;
       flex: 0;
       padding: 10px 20px 0 20px;
     }
 
-    .login-p {
+    #menu .login-p {
       width: 37px;
       height: 20px;
       color: #4CAF4F;
@@ -104,7 +97,7 @@
       font-weight: 500;
     }
 
-    .signUp {
+    #menu .signUp {
       width: 91px;
       height: 40px;
       background-color: #4CAF4F;
@@ -112,7 +105,7 @@
       padding: 10px 20px 10px 20px;
     }
 
-    .signUp-p {
+    #menu .signUp-p {
       width: 51px;
       height: 20px;
       color: #ffffff;
@@ -121,7 +114,22 @@
 
     }
 
-    .layout2 {
+    /*
+    #Lessons Insights Banner
+    */
+
+    #lessons_insights_banner .flex-row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #lessons_insights_banner .banner-1-container {
+      gap: 104px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #lessons_insights_banner .layout2 {
       display: flex;
       width: 1440px;
       padding: 96px 144px 96px 144px;
@@ -130,7 +138,7 @@
       justify-content: center;
     }
 
-    .lessons {
+    #lessons_insights_banner .lessons {
       font-weight: 600;
       font-size: 64px;
       line-height: 76px;
@@ -139,7 +147,7 @@
       height: 152px;
     }
 
-    .lessons2 {
+    #lessons_insights_banner .lessons2 {
       width: 657px;
       height: 24px;
       font-weight: 400;
@@ -148,13 +156,13 @@
       margin: 16px auto 32px auto;
     }
 
-    .img1 {
+    #lessons_insights_banner .img1 {
       width: 391px;
       height: 407px;
       flex: 1;
     }
 
-    .bottom {
+    #lessons_insights_banner .bottom {
       background-color: #4CAF4F;
       width: 128px;
       height: 52px;
@@ -166,75 +174,286 @@
       padding: 14px 32px 14px 32px;
     }
 
-    .ponto {
+    #lessons_insights_banner .ponto {
       width: 46px;
       gap: 8px;
       display: flex;
 
     }
 
-    .ponto1 {
+    #lessons_insights_banner .ponto1 {
       height: 10px;
       color: #4CAF4F;
     }
 
-    .ponto2 {
+    #lessons_insights_banner .ponto2 {
       height: 10px;
       color: #4CAF4F;
       opacity: 30%;
     }
 
-    .bloco-our {
+    /*
+    #Our Clients
+    */
+
+    #our_clients .bloco-our {
       width: 1440px;
-      height: 190px;
       margin: 40px auto;
     }
 
-    .div-our {
-      width: 1110px;
-      padding: 0 165px 0 165px;
+    #our_clients .div-our {
+      display: block;
       text-align: center;
     }
 
-    .div-we {
-      width: 1110px;
+    #our_clients .div-we {
       padding: 8px 165px 0 165px;
       text-align: center;
     }
 
-    .our {
+    #our_clients .our {
       line-height: 44px;
       font-size: 36px;
       font-weight: 600;
       color: #4D4D4D;
     }
 
-    .we-have {
+    #our_clients .we-have {
       color: #717171;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
     }
 
-    .logos {
+    #our_clients .logos {
       display: flex;
+      justify-content: center;
       gap: 116px;
-      width: 1152px;
       padding: 16px 0 0 0;
     }
 
-    .imagens-7 {
-      flex: 0;
+    #our_clients .imagens-7 {
       width: 48px;
     }
+
+    /*
+    #Manage
+    */
+
+    #manage .div-manage {
+      width: 1440px;
+      margin: 40px 0 0 0;
+    }
+
+    #manage .div-manage-p {
+      margin: auto;
+      width: 542px;
+      color: #4D4D4D;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 44px;
+      text-align: center;
+    }
+
+    #manage .div-who {
+      color: #717171;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 8px 449px 0 449px;
+      text-align: center;
+    }
+
+    #manage .div-trio {
+      width: 1440px;
+      margin: 16px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 127.5px;
+      padding: 10px 144px 10px 144px;
+    }
+
+    #manage .div-membership {
+      width: 299px;
+      padding: 24px 32px 24px 32px;
+    }
+
+    #manage .imagens-trio {
+      padding: 0 118px 24px 101px;
+    }
+
+    #manage .MNC {
+      width: 267px;
+      color: #4D4D4D;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      text-align: center;
+      padding: 0 16px 8px 16px;
+    }
+
+    #manage .texto-our {
+      width: 251px;
+      padding: 8px 24px 24px 24px;
+      color: #717171;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+    }
+
+    /*
+    #The Unseen
+    */
+
+    #the_unseen .div-the_unseen {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 144px 0 144px;
+      margin: 41px 0 48px 0;
+    }
+
+    #the_unseen .imagem-rafiki {
+      width: 442px;
+      margin: 0 49px 0 0;
+    }
+
+    #the_unseen .div-the-unseen {
+      width: 661px;
+    }
+
+    #the_unseen .div-texto-the-unseen {
+      width: 601px;
+    }
+
+    #the_unseen .texto-theunseen {
+      color: #4D4D4D;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+    }
+
+    #the_unseen .div-texto-lorem {
+      width: 601px;
+      margin: 16px 60px 32px 0;
+    }
+
+    #the_unseen .texto-lorem {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #717171;
+    }
+
+    #the_unseen .button {
+      width: 151px;
+      height: 52px;
+      bottom: 14px;
+      background-color: #4CAF4F;
+      border-radius: 4px;
+      padding: 14px 32px 14px 32px;
+    }
+
+    #the_unseen .texto-button {
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    #the_unseen .main-title {
+      padding-right: 130px;
+    }
+
+    /*
+    #Helping
+    */
+
+    #helping .helping {
+      width: 1440;
+      margin: 0 0 48px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    #helping .div-helping {
+      display: flex;
+      flex-direction: column;
+      width: 540px;
+      margin: 84px 0 84px 144px;
+      gap: 8px;
+    }
+
+    #helping .div-texto-helping {
+      width: 408px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #4D4D4D;
+      margin: 0 132px 0 0;
+    }
+
+    #helping .div-texto-we-reached {
+      width: 540px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #18191f;
+    }
+
+    #helping .div-quarteto {
+      display: flex;
+      flex-direction: column;
+      width: 540px;
+      gap: 40px;
+      margin: 64px 144px 64px 0;
+    }
+
+    #helping .div-4-imagens {
+      width: 540px;
+    }
+    
+    /*
+    div.pagina div#menu.background-grey .logo {}
+
+    .container {}
+
+    .comida .container .logo {
+
+    }
+
+    .color-red {
+
+    }
+
+    .bebida .logo {
+
+    }
+    */
+
   </style>
 
 </head>
 
+<!--
+
+<div class="comida">
+  <div class="container">
+    <div class="logo color-red"></div>
+  </div>
+</div>
+
+<div class="bebida">
+  <div class="container">
+    <div class="logo color-red"></div>
+  </div>
+</div>
+-->
+
 <body>
   <div class="pagina">
-
-    <div class="background-grey">
+    <div id="menu" class="background-grey">
       <div class="centralize">
         <div class="layout1">
           <div class="logo">
@@ -273,7 +492,7 @@
       </div>
     </div>
 
-    <div class="background-grey">
+    <div id="lessons_insights_banner" class="background-grey">
       <div class="centralize">
         <div class="layout2">
           <div class="flex-row banner-1-container">
@@ -302,6 +521,15 @@
               <p>•</p>
             </div>
           </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Clients -->
+    <div id="our_clients" class="our-clients">
+      <div class="centralize">
+        <div class="our-clients-contents">
           <div class="bloco-our">
             <div class="div-our">
               <p class="our">Our Clients</p>
@@ -332,10 +560,131 @@
                 <img src="Logo (6).png">
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Manage -->
+    <div id="manage" class="manage">
+      <div class="centralize">
+        <div class="manage-contents">
+          <div class="div-manage">
+            <div class="div-manage-p">
+              <p>Manage your entire community in a single system</p>
+            </div>
+            <div class="div-who">
+              <p>Who is Nextcent suitable for?</p>
+            </div>
+
+            <!-- Membership -->
+            <div id="membership" class="div-trio">
+              <div class="div-membership">
+                <div>
+                  <img class="imagens-trio" src="Icon-1.png">
+                  <p class="MNC">Membership Organisations</p>
+                </div>
+                <div>
+                  <p class="texto-our">Our membership management software provides full
+                    automation of membership renewals and payments</p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <img class="imagens-trio" src="Icon-2.png">
+                  <p class="MNC">National Associations</p>
+                </div>
+                <div>
+                  <p class="texto-our">Our membership management software provides full automation of
+                    membership renewals and payments</p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <img class="imagens-trio" src="Icon-3.png">
+                  <p class="MNC">Clubs And Groups</p>
+                </div>
+                <div>
+                  <p class="texto-our">Our membership management software provides full automation of
+                    membership renewals and payments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The unseen -->
+    <div id="the_unseen">
+      <div class="centralize">
+        <div class="div-the_unseen">
+          <div class="imagem-rafiki">
+            <img src="rafiki.png">
+          </div>
+          <div class="div-the-unseen">
+            <div class="main-title">
+              <p class="texto-theunseen">The unseen of spending three years at Pixelgrade</p>
+            </div>
+            <div class="div-texto-lorem">
+              <p class="texto-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum
+                lorem
+                sed
+                porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam
+                quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+            </div>
+            <div class="button">
+              <p class="texto-button">Learn More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Helping -->
+    <div id="helping">
+      <div class="centralize">
+        <div class="helping">
+          <div class="div-helping">
+            <div>
+              <p class="div-texto-helping">
+                <span>Helping a local</span>
+                <span class="font-color-green">bussiness reinvent itself</span>
+              </p>
+            </div>
+            <div>
+              <p class="div-texto-we-reached">We reached here with our hard work and dedication</p>
+            </div>
+          </div>
+          <div class="div-quarteto">
+            <div class="div-4-imagens">
+              <img src="Row 1.png">
+            </div>
+            <div class="div-4-imagens">
+              <img src="Row 2.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- How -->
+    <div id="how" class="how"></div>
+
+    <!-- Maecenas -->
+    <div id="maecenas" class="maecenas"></div>
+
+    <!-- Caring -->
+    <div id="caring" class="caring"></div>
+
+    <!-- Pellentesque -->
+    <div id="pellentesque" class="pellentesque"></div>
+
+    <!-- Footer -->
+    <div id="footer" class="footer"></div>
   </div>
 
   </div>

@@ -308,8 +308,6 @@
 
     #the_unseen .div-the_unseen {
       display: flex;
-      align-items: center;
-      justify-content: center;
       padding: 0 144px 0 144px;
       margin: 41px 0 48px 0;
     }
@@ -360,6 +358,7 @@
       font-size: 16px;
       text-align: center;
       color: #ffffff;
+      line-height: 24px;
     }
 
     #the_unseen .main-title {
@@ -413,7 +412,152 @@
     #helping .div-4-imagens {
       width: 540px;
     }
-    
+
+    /*
+    #How
+    */
+
+    #how .how {
+      display: flex;
+      margin: 0 0 48px 0;
+    }
+
+    #how .how .div-imagem {
+      width: 441.53px;
+      margin: 0 0 0 144px;
+    }
+
+    #how .how .div-textos {
+      width: 661px;
+      margin: 62.7px 144px 62.7px 0;
+    }
+
+    #how .how .div-textos .div-titulo {
+      width: 601px;
+    }
+
+    #how .div-textos .div-titulo .titulo-p {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      color: #4D4D4D;
+    }
+
+    #how .how .div-textos .div-donec {
+      width: 601px;
+      margin: 0 0 32px 0;
+      padding: 0 40px 0 0;
+    }
+
+    #how .div-textos .div-donec .donec-p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #717171;
+    }
+
+    #how .div-textos .button {
+      width: 151px;
+      height: 52px;
+      bottom: 14px;
+      background-color: #4CAF4F;
+      border-radius: 4px;
+      padding: 14px 32px 14px 32px;
+    }
+
+    #how .div-textos .button .texto-button {
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: #ffffff;
+      line-height: 24px;
+    }
+
+    /*
+    #Maecenas
+    */
+
+    #maecenas .maecenas {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 0 48px 0;
+    }
+
+    #maecenas .maecenas .div-imagem {
+      width: 326px;
+      border-radius: 8px;
+      margin: 32px 0 32px 0;
+    }
+
+    #maecenas .maecenas .div-textos {
+      display: flex;
+      flex-direction: column;
+      width: 748px;
+      gap: 16px;
+      margin: 44px 0px 33px 0;
+    }
+
+    #maecenas .div-textos .texto-maecenas {
+      width: 748px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #717171;
+      padding: 0 53px 0 0;
+    }
+
+    #maecenas .div-textos .div-tim-smith {
+      display: flex;
+      flex-direction: column;
+      width: 294px;
+      gap: 8px;
+    }
+
+    #maecenas .div-tim-smith .texto-tim-smith{
+      width: 294px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    #maecenas .div-tim-smith .texto-british {
+      width: 294px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #89939e;
+    }
+
+    #maecenas .div-textos .div-imagens {
+      display: flex;
+      justify-content: space-around;
+      width: 748px;
+      gap: 32px;
+    }
+
+    #maecenas .div-textos .div-imagens .div-6-imagens {
+      width: 493px;
+    }
+
+    #maecenas .div-imagens .div-meet {
+      display: flex;
+      width: 223px;
+      gap: 8px;
+    }
+
+    #maecenas .div-imagens .div-meet .div-texto-meet {
+      width: 188px;
+      color: #4CAF4F;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 12px 0 8px 8px;
+    }
+
+    #maecenas .div-imagens .div-meet .div-seta {
+      width: 24px;
+      margin: 12px 0 10px 0;
+    }
+
     /*
     div.pagina div#menu.background-grey .logo {}
 
@@ -431,7 +575,6 @@
 
     }
     */
-
   </style>
 
 </head>
@@ -672,10 +815,93 @@
     </div>
 
     <!-- How -->
-    <div id="how" class="how"></div>
+    <div id="how">
+      <div class="centralize">
+        <div class="how">
+          <div class="div-imagem">
+            <img src="pana.png">
+          </div>
+          <div class="div-textos">
+            <div class="div-titulo">
+              <p class="titulo-p">How to design your site footer like we did</p>
+            </div>
+            <div class="div-donec">
+              <p class="donec-p">Donec a eros justo. Fusce egestas tristique ultrices.
+                Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu,
+                at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis.
+                In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus.
+                In euismod augue vitae nisi ultricies, non aliquet urna tincidunt.
+                Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est,
+                finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+            </div>
+            <div class="button">
+              <p class="texto-button">Learn More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Maecenas -->
-    <div id="maecenas" class="maecenas"></div>
+    <div id="maecenas" class="maecenas">
+      <div class="centralize">
+        <div class="maecenas">
+          <div class="div-imagem">
+            <img src="image 9.png">
+          </div>
+          <div class="div-textos">
+            <div class="texto-maecenas">
+              <p class="texto-maecenas">
+                Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui,
+                vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare,
+                tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet
+                elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices,
+                quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+                potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio
+                neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
+                amet magna.
+              </p>
+            </div>
+            <div class="div-tim-smith">
+              <div>
+                <p class="font-color-green texto-tim-smith">Tim Smith</p>
+              </div>
+              <div>
+                <p class="texto-british">British Dragon Boat Racing Association</p>
+              </div>
+            </div>
+            <div class="div-imagens">
+              <div class="div-6-imagens">
+                <img src="Logo7.png">
+              </div>
+              <div class="div-6-imagens">
+                <img src="Logo8.png">
+              </div>
+              <div class="div-6-imagens">
+                <img src="Logo9.png">
+              </div>
+              <div class="div-6-imagens">
+                <img src="Logo10.png">
+              </div>
+              <div class="div-6-imagens">
+                <img src="Logo11.png">
+              </div>
+              <div class="div-6-imagens">
+                <img src="Logo12.png">
+              </div>
+              <div class="div-meet">
+                <div class="div-texto-meet">
+                <p>Meet all customers</p>
+                </div>
+                <div class="div-seta">
+                  <img src="Right.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Caring -->
     <div id="caring" class="caring"></div>

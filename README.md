@@ -23,7 +23,7 @@
 ### Navegacao entre diretorios
 
 - o ponto de vista de navegacao é sempre o diretorio que estou agora
-- ./ => e a forma de escrever "a partir de onde eu estou"
+- ./ => é a forma de escrever "a partir de onde eu estou"
   - ./images/ => "existe uma pasta images dentro da onde eu estou"
 
 ### Conceitos basicos de html e css

@@ -824,6 +824,10 @@
       gap: 24px;
     }
 
+    #footer .div-stay .input-box {
+      flex: 0 0 215px;
+    }
+
     #footer .div-stay .stay-p {
       font-weight: 600;
       font-size: 20px;
@@ -833,13 +837,12 @@
 
     #footer .div-stay .div-your {
       display: flex;
-      gap: 87px;
+      gap: 8px;
       width: 255px;
       height: 40px;
       top: 52px;
       border-radius: 8px;
-      background-color: #d9dbd1;
-      opacity: 20%;
+      background-color: rgba(217, 219, 209, 0.2);
     }
 
     #footer .your-p {
@@ -848,6 +851,8 @@
       line-height: 20px;
       margin: 9px 0 11px 12px;
       color: #ffffff;
+      background-color: transparent;
+      border: none;
     }
 
     #footer .div-your .ícone {
@@ -1364,8 +1369,8 @@
                 <p>Stay up to date</p>
               </div>
               <div class="div-your">
-                <div>
-                  <p class="your-p">Your email address</p>
+                <div class="input-box">
+                  <input class="your-p" placeholder="Your email account" />
                 </div>
                 <div class="ícone">
                   <img src="./public/send.png">

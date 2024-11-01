@@ -65,3 +65,32 @@ div.pagina div#menu.background-grey .logo {
   </div>
 </div>
 ```
+
+```typescript
+// string = "texto"
+// number = 24
+// boolean = true
+
+// array = []
+// object = {}
+
+const userName: string = "Gio";
+const userAge: number = 35;
+const isBlond: boolean = false;
+
+const userNames: string[] = ["Gio", "Bruno"];
+
+type UserDataType = {
+  name: string;
+  age: number;
+  isBlond: boolean;
+};
+
+const userData: UserDataType = {
+  name: "Gio",
+  age: 35,
+  isBlond: true,
+};
+
+userData.name;
+```
